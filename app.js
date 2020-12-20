@@ -3,9 +3,7 @@ let buttonSomme = document.getElementById("somme");
 let body = document.getElementById("boy");
 
 
-buttonAlert.addEventListener("click", () => {
-    alert("Hello world !");
-})
+buttonAlert.addEventListener("click", () => alert("Hello world !"));
 
 buttonSomme.addEventListener("click", () => {
     let div = document.createElement("div");
